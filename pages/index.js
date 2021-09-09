@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import MultiRangeSlider from '../components/MultiRangeSlider'
-import Checkbox from '../components/CheckBox'
+import Checkbox from '../components/Checkbox'
 
 // Datas 
 const dataMenu = [
