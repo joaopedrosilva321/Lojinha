@@ -691,7 +691,7 @@ export default function Home() {
 
                 <Flex key={id} style={{ margin: "0 0 32px", border: "1px solid #D1D1D1", borderRadius: 12 }}>
                   <MainImage style={{ position: "relative", borderRadius: "inherit", overflow: "hidden", margin: "0 0 0 10px" }}>
-                    <Image width={268} height={268} src={img} alt layout="fill" quality="100" />
+                    <Image src={img} alt layout="fill" quality="100" />
                   </MainImage>
 
                   <div style={{ margin: 32, width: 269, height: 212 }}>
