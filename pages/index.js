@@ -911,7 +911,7 @@ export default function Home() {
 
                   <div key={Math.floor(Math.random() * 10010) - 100} style={{ border: "1px solid #D1D1D1", borderRadius: 12, padding: 16, padding: 14, margin: "0px 0 24px 0" }}>
                     <MainImage style={{ userSelect: "none" }} >
-                      <Image src={img} alt="" layout="responsive" width="230" height="180" />
+                      <Image src={img} alt="" placeholder='blur' blurDataURL={img} layout="responsive" width="230" height="180" />
                     </MainImage>
 
                     <Description>
