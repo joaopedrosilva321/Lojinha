@@ -15,11 +15,11 @@ const dataMenu = [
 ]
 
 const dataPostagens = [
-  { id: 0, label: "Manga", price: "2,99", beforePrice: "3,99", img: "/files/05.jpg", star: [{ state: true, }, { state: true }, { state: true }, { state: true }, { state: false }] },
-  { id: 1, label: "Abobrinha", price: "8,99", beforePrice: "12,27", img: "/files/04.jpg", star: [{ state: true }, { state: true }, { state: true }, { state: true }, { state: false }] },
-  { id: 2, label: "Banana", price: "6,49", beforePrice: "7,25", img: "/files/01.jpg", star: [{ state: true }, { state: true }, { state: true }, { state: true }, { state: false }] },
-  { id: 3, label: "Morango", price: "4,99", beforePrice: "6,99", img: "/files/07.jpg", star: [{ state: true }, { state: true }, { state: true }, { state: true }, { state: true }] },
-  { id: 4, label: "Chuchu", price: "5,99", beforePrice: "7,99", img: "/files/10.jpg", star: [{ state: true }, { state: true }, { state: true }, { state: true }, { state: false }] }
+  { id: 0, label: "Manga", price: "2,99", beforePrice: "3,99", img: "/files/05.webp", star: [{ state: true, }, { state: true }, { state: true }, { state: true }, { state: false }] },
+  { id: 1, label: "Abobrinha", price: "8,99", beforePrice: "12,27", img: "/files/04.webp", star: [{ state: true }, { state: true }, { state: true }, { state: true }, { state: false }] },
+  { id: 2, label: "Banana", price: "6,49", beforePrice: "7,25", img: "/files/01.webp", star: [{ state: true }, { state: true }, { state: true }, { state: true }, { state: false }] },
+  { id: 3, label: "Morango", price: "4,99", beforePrice: "6,99", img: "/files/07.webp", star: [{ state: true }, { state: true }, { state: true }, { state: true }, { state: true }] },
+  { id: 4, label: "Chuchu", price: "5,99", beforePrice: "7,99", img: "/files/10.webp", star: [{ state: true }, { state: true }, { state: true }, { state: true }, { state: false }] }
 ]
 
 // Styles Defaults
