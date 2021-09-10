@@ -414,7 +414,7 @@ export default function Home() {
     <>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
       </Head>
       <Container>
@@ -911,7 +911,7 @@ export default function Home() {
 
                   <div key={Math.floor(Math.random() * 10010) - 100} style={{ border: "1px solid #D1D1D1", borderRadius: 12, padding: 16, padding: 14, margin: "0px 0 24px 0" }}>
                     <MainImage style={{ userSelect: "none" }} >
-                      <Image src={img} alt="" layout="fill" quality="100" />
+                      <Image src={img} alt="" layout="responsive" width="230" height="180" />
                     </MainImage>
 
                     <Description>
