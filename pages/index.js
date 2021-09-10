@@ -415,7 +415,7 @@ export default function Home() {
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link media="print" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
       </Head>
       <Container>
 
@@ -425,7 +425,7 @@ export default function Home() {
             <MenuMobile onClick={() => setMenuMobile(e => !e)}>
               <div style={{ cursor: "pointer" }}>
                 <span>
-                  <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="24"><rect y="11" width="24" height="2" rx="1" /><rect y="4" width="24" height="2" rx="1" /><rect y="18" width="24" height="2" rx="1" /></svg>
+                  <svg id="Outline" viewBox="0 0 24 24" width="24"><rect y="11" width="24" height="2" rx="1" /><rect y="4" width="24" height="2" rx="1" /><rect y="18" width="24" height="2" rx="1" /></svg>
 
                 </span>
               </div>
@@ -911,7 +911,7 @@ export default function Home() {
 
                   <div key={Math.floor(Math.random() * 10010) - 100} style={{ border: "1px solid #D1D1D1", borderRadius: 12, padding: 16, padding: 14, margin: "0px 0 24px 0" }}>
                     <MainImage style={{ userSelect: "none" }} >
-                      <Image src={img} alt="" placeholder='blur' blurDataURL={img} layout="responsive" width="230" height="180" />
+                      <Image src={img} alt="" layout="fixed" width="230" height="180" />
                     </MainImage>
 
                     <Description>
@@ -994,7 +994,7 @@ export default function Home() {
                           <FlexJustifyContent as={FlexAlign} style={{ height: 36, width: 135, background: "#6A983C", borderRadius: 12, userSelect: "none", cursor: "pointer", color: "#FFFFFF", border: "2px solid #46760A" }}>
 
                             <Flex style={{ marginRight: 8 }}>
-                              <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <svg width="18" height="16" viewBox="0 0 18 16" fill="none">
                                 <path d="M2 2H4.37403L6.51744 11.2994H15.1047L16 4.67926H5.5814" stroke="#FFFFFF" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M8.05727 12.751H8.05048C7.56349 12.751 7.1687 13.1458 7.1687 13.6328V13.6395C7.1687 14.1265 7.56349 14.5213 8.05048 14.5213H8.05727C8.54426 14.5213 8.93905 14.1265 8.93905 13.6395V13.6328C8.93905 13.1458 8.54426 12.751 8.05727 12.751Z" stroke="#FFFFFF" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M8.05727 12.751H8.05048C7.56349 12.751 7.1687 13.1458 7.1687 13.6328V13.6395C7.1687 14.1265 7.56349 14.5213 8.05048 14.5213H8.05727C8.54426 14.5213 8.93905 14.1265 8.93905 13.6395V13.6328C8.93905 13.1458 8.54426 12.751 8.05727 12.751Z" stroke="#FFFFFF" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -1044,7 +1044,7 @@ export default function Home() {
                   <span>Mostrar mais produtos</span>
                 </div>
                 <Flex style={{ marginLeft: 8 }}>
-                  <svg width="9" height="7" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg width="9" height="7" viewBox="0 0 9 7" fill="none">
                     <path d="M1.31348 2.03333L4.05348 4.77332C4.17838 4.89749 4.34735 4.96719 4.52348 4.96719C4.6996 4.96719 4.86857 4.89749 4.99348 4.77332L7.66014 2.10666" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="bevel" />
                   </svg>
 
