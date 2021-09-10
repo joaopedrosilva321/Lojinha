@@ -27,8 +27,8 @@ const HiddenCheckbox = styled.input.attrs({ type: 'checkbox' })`
 
 const StyledCheckbox = styled.div`
   display: inline-block;
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   background: ${props => (props.checked ? '#6A983C' : 'transparent')};
   border: ${props => (props.checked ? '1.5px solid #46760A': '1.5px solid #D1D1D1')};
   border-radius: 3px;

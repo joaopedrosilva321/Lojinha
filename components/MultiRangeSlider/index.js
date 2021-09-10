@@ -181,7 +181,7 @@ const MultiRangeSlider = ({ min, max, onChange }) => {
             <div style={{ color: "#151515", fontWeight: 600 }}>
               <span>Min</span>
             </div>
-            <div style={{ color: "#151515", fontWeight: 600, background: "#F9F9F9", border: '1px solid #D1D1D1', borderRadius: 12, width: 72, height: 19, padding: "11px 16px 12px 21px", lineHeight: 1.9 }}>
+            <div style={{ color: "#151515", fontWeight: 600, background: "#F9F9F9", border: '1px solid #D1D1D1', borderRadius: 12, width: 72, padding: "11px 16px 8px 22px", lineHeight: 1.9 }}>
               {minVal}
             </div>
           </SliderLeftValue>
@@ -189,7 +189,7 @@ const MultiRangeSlider = ({ min, max, onChange }) => {
             <div style={{ color: "#151515", fontWeight: 600 }}>
               <span>Max</span>
             </div>
-            <div style={{ color: "#151515", fontWeight: 600, background: "#F9F9F9", border: '1px solid #D1D1D1', borderRadius: 12, width: 72, height: 19, padding: "11px 16px 12px 21px", lineHeight: 1.9 }}>
+            <div style={{ color: "#151515", fontWeight: 600, background: "#F9F9F9", border: '1px solid #D1D1D1', borderRadius: 12, width: 72, padding: "11px 16px 8px 22px", lineHeight: 1.9 }}>
               {maxVal}
             </div>
           </SliderRightValue>
